@@ -1,0 +1,61 @@
+body{
+   font-family: Arial, Helvetica, sans-serif;
+   background-color: black;
+   color: white;
+}
+.mainpage{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+h2{
+   font-weight: bold;
+   font-size: 30px;
+}
+p{
+   padding-bottom: 25px;
+}
+.btn{
+   background-size: cover;
+   width: 90px;
+   height: 90px;
+   border: 3px solid white;
+   border-radius: 50%;
+   cursor: pointer; 
+}
+.btn-2box{
+   width: 40px;
+   height: 40px;
+}
+#btn1{
+   background-image: url(Rock-emoji.png);
+   
+}
+#btn2{
+   background-image: url(Paper-emoji.png);
+}
+#btn3{
+   background-image: url(Scissor-emoji.png);
+}
+
+.result{
+   font-size: 25px;
+   font-weight: bold;
+   margin-top: 50px;
+}
+.reset-score-button ,
+.auto-play-button{
+   border: none;
+   border-radius: 5px;
+   background-color: white;
+   color: black;
+   font-weight: 800;
+   font-size: 15px;
+   padding: 8px 15px;
+   margin-bottom: 10px;
+   cursor: pointer;
+}
+.auto-play-button{
+   padding: 8px 25px;
+}
