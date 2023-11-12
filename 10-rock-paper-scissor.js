@@ -1,4 +1,3 @@
-//Asynchronisation  
 isAutoPlaying = true ;
 console.log(isAutoPlaying);
 console.log(!isAutoPlaying);
